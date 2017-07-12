@@ -1,0 +1,68 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header{
+background-image: url('../images/banner.jpg');
+height: 680px;
+background-size:cover;
+background-position-y: -75px;
+background-repeat: no-repeat;
+color: white;
+}
+
+.header-container{
+  position: absolute;
+  top: 210px;
+  left: 38%;
+}
+
+.header-title{
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding-left: 16%;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  width: 270px;
+  font-size: 0.9em;
+}
+
+h1{
+  font-weight:800;
+  letter-spacing: 8px;
+}
+
+.header-subtitle1, .header-subtitle2{
+  font-size: 0.99em;
+  letter-spacing: 5px;
+  font-weight: lighter;
+}
+
+.header-subtitle1{
+  margin-top: 30px;
+  padding-left: 12px;
+}
+
+.header-subtitle2{
+  margin-top: 6px;
+  padding-left: 28px;
+}
+
+.adopte-btn{
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  width: 150px;
+  height: 45px;
+  border-radius: 5px;
+  position: absolute;
+  left: 35%;
+  top: 180px;
+  padding: 10px;
+  font-size: 0.8em;
+  letter-spacing: 3px;
+  padding-left: 15px;
+}
